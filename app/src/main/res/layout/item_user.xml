@@ -6,7 +6,7 @@
     android:layout_height="96dp">
 
     <ImageView
-        android:id="@+id/iv_user"
+        android:id="@+id/list_user"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
@@ -16,15 +16,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_username"
+        android:id="@+id/text_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:text="TextView"
         tools:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/iv_user"
-        app:layout_constraintStart_toEndOf="@+id/iv_user"
-        app:layout_constraintTop_toTopOf="@+id/iv_user" />
+        app:layout_constraintBottom_toBottomOf="@+id/list_user"
+        app:layout_constraintStart_toEndOf="@+id/list_user"
+        app:layout_constraintTop_toTopOf="@+id/list_user" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,9 +39,9 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(MainViewModel::class.java)
 
         binding.apply {
-            rvUser.layoutManager = LinearLayoutManager(this@MainActivity)
-            rvUser.setHasFixedSize(true)
-            rvUser.adapter = adapter
+            isiUser.layoutManager = LinearLayoutManager(this@MainActivity)
+            isiUser.setHasFixedSize(true)
+            isiUser.adapter = adapter
 
             btnSearch.setOnClickListener {
                 searchUser()

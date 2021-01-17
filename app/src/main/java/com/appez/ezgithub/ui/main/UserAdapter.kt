@@ -35,8 +35,8 @@ class UserAdapter : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
                     .load(user.avatar_url)
                     .transition(DrawableTransitionOptions.withCrossFade())
                     .centerCrop()
-                    .into(ivUser)
-                tvUsername.text = user.login
+                    .into(listUser)
+                textUsername.text = user.login
             }
 
         }
